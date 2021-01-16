@@ -11,6 +11,8 @@
 		EE93351B25B329C4005A5B22 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE93351A25B329C4005A5B22 /* ContentView.swift */; };
 		EE93351D25B329C5005A5B22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE93351C25B329C5005A5B22 /* Assets.xcassets */; };
 		EE93352025B329C5005A5B22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE93351F25B329C5005A5B22 /* Preview Assets.xcassets */; };
+		EE93352A25B32A2F005A5B22 /* ToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE93352825B32A2F005A5B22 /* ToDoList.xcdatamodeld */; };
+		EEDC2AC025B32ED900349ECF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDC2ABF25B32ED900349ECF /* Persistence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		EE93351C25B329C5005A5B22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE93351F25B329C5005A5B22 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EE93352125B329C5005A5B22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE93352925B32A2F005A5B22 /* ToDoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoList.xcdatamodel; sourceTree = "<group>"; };
+		EEDC2ABF25B32ED900349ECF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				EE93351825B329C4005A5B22 /* ToDoList_CoreDataApp.swift */,
 				EE93351A25B329C4005A5B22 /* ContentView.swift */,
+				EEDC2ABF25B32ED900349ECF /* Persistence.swift */,
+				EE93352825B32A2F005A5B22 /* ToDoList.xcdatamodeld */,
 				EE93351C25B329C5005A5B22 /* Assets.xcassets */,
 				EE93352125B329C5005A5B22 /* Info.plist */,
 				EE93351E25B329C5005A5B22 /* Preview Content */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE93351B25B329C4005A5B22 /* ContentView.swift in Sources */,
+				EEDC2AC025B32ED900349ECF /* Persistence.swift in Sources */,
+				EE93352A25B32A2F005A5B22 /* ToDoList.xcdatamodeld in Sources */,
 				EE93351925B329C4005A5B22 /* ToDoList_CoreDataApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +336,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EE93352825B32A2F005A5B22 /* ToDoList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EE93352925B32A2F005A5B22 /* ToDoList.xcdatamodel */,
+			);
+			currentVersion = EE93352925B32A2F005A5B22 /* ToDoList.xcdatamodel */;
+			path = ToDoList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EE93350D25B329C4005A5B22 /* Project object */;
 }
